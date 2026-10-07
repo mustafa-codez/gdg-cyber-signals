@@ -8,6 +8,8 @@
 
 # Cyber Signals
 
+*A community cybersecurity curriculum for Google Developer Groups (GDG) online sessions.*
+
 > **Detection is detection.** A SIEM alert, a suspicious transaction cluster, a manipulated video, a jailbroken chatbot and an anomaly in a biological sequence are all the same skill: finding a pattern in noise and proving it.
 
 An open, self-paced, hands-on cybersecurity curriculum built for a GDG community. You do **not** need to watch any recording. Every lab is written so you can open the folder, read the explanation, copy the commands, and run everything on your own machine.
@@ -54,10 +56,14 @@ Most labs need: Linux or macOS or WSL2, Python 3.10+, Docker, and git. Each lab 
 - **AI builder:** Aegis 01 to 04
 - **Biology or data-science curious:** Helix 01 to 03, then Aegis 01
 
+## Running this as a GDG chapter
+See [`GDG_SESSIONS.md`](GDG_SESSIONS.md) for the session format, online logistics, promotion checklist and feedback loop.
+
 ## Everything in one place
 
 - [`RESOURCES.md`](RESOURCES.md): every link, platform, tool, channel, podcast and community
 - [`ETHICS.md`](ETHICS.md): the rules for everything in this repo. **Read this first.**
+- [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md): how we treat each other
 - [`CONTRIBUTING.md`](CONTRIBUTING.md): add a lab, fix a typo, suggest a session
 - [`templates/`](templates): incident report, case file, OSINT collection log, lab template
 

@@ -30,7 +30,22 @@ You need a local model so no API key or fee is needed.
 ollama pull llama3.2
 pip install requests
 ```
-(You may use any other local model, or an API such as Gemini if you have a key. Adapt the `chat()` function.)
+(You may use any other local model. **GDG-friendly alternative:** use Gemini through Google AI Studio (https://aistudio.google.com) with a free API key. Replace `chat()` with:)
+```python
+# pip install google-genai
+import os
+from google import genai
+from google.genai import types
+
+client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
+
+def chat(system: str, user: str, model: str = "gemini-2.0-flash") -> str:
+    r = client.models.generate_content(
+        model=model, contents=user,
+        config=types.GenerateContentConfig(system_instruction=system))
+    return r.text
+```
+(Model names change often; check the current list in the Gemini API docs. Never commit your API key; keep it in an environment variable.)
 
 ### The vulnerable app
 Save as `vulnerable_bot.py`:
