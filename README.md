@@ -6,7 +6,7 @@
   \____|  |_|  |____/|_____|_| \_\     |____/___\____|_| \_/_/   \_\_____|____/
 ```
 
-# Cyber Signals
+# GDG Cyber Signals
 
 *A community cybersecurity curriculum for Google Developer Groups (GDG) online sessions.*
 
@@ -41,8 +41,8 @@ Each lab folder has one `README.md` with the same flow:
 ## Quick start
 
 ```bash
-git clone https://github.com/<your-org>/cyber-signals.git
-cd cyber-signals
+git clone https://github.com/<your-org>/gdg-cyber-signals.git
+cd gdg-cyber-signals
 # pick a track, open its README, start with lab 01
 ```
 
