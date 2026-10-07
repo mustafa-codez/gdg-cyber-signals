@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.img
+sample_*.log
+sample_*.csv
+mnt/
+frames/

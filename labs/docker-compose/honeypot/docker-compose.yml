@@ -1,0 +1,14 @@
+# Cowrie SSH/Telnet honeypot, bound to localhost only.
+# Start: docker compose up -d      Stop: docker compose down
+services:
+  cowrie:
+    image: cowrie/cowrie:latest
+    container_name: cowrie
+    ports:
+      - "127.0.0.1:2222:2222"   # SSH honeypot (localhost only: do not expose publicly)
+    volumes:
+      - cowrie-var:/cowrie/cowrie-git/var
+    restart: unless-stopped
+
+volumes:
+  cowrie-var:
