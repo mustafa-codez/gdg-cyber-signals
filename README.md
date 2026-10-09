@@ -5,10 +5,9 @@
  | |___   | |  | |_) | |___|  _ <|_____|___) | | |_| | |\  |/ ___ \| |___ ___) |
   \____|  |_|  |____/|_____|_| \_\     |____/___\____|_| \_/_/   \_\_____|____/
 ```
-
-<!-- Add the official GDG logo after you place it in assets/brand/ (see assets/brand/README.md):
-<p align="center"><img src="assets/brand/gdg-logo.png" alt="GDG on Campus AASTMT Abu Qir" width="180"></p>
--->
+<p align="center">
+  <img src="assets/brand/google-developers.svg" alt="Google Developers" width="200">
+</p>
 
 # GDG Cyber Signals
 
