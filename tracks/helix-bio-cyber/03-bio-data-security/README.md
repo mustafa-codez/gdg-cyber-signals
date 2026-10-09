@@ -97,6 +97,15 @@ A consumer headset streams EEG to a cloud app. List: what could be inferred, who
 2. Write a one-page data-protection plan for a small research lab that stores genomic samples.
 3. Compare how GDPR and one other law treat genetic data.
 
+## Mini project: Bio-Data Protection Plan
+**Build:** Check and fix k-anonymity on a synthetic table and plan protections.
+
+**Deliverables (in your own portfolio repo):** A notebook showing k before and after generalisation and a one-page protection plan.
+
+**This is a phase of the track capstone:** see [`../CAPSTONE.md`](../CAPSTONE.md).
+
+**Share it (optional):** "I learned why DNA data is hard to anonymise and how to protect it." Follow the safe-sharing rules and templates in [`SHOWCASE.md`](../../../SHOWCASE.md).
+
 ## Checkpoint
 - Why isn't pseudonymised data "anonymous"?
 - Why is genomic data uniquely hard to protect?

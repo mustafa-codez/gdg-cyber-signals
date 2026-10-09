@@ -69,6 +69,15 @@ Use confidence language: "No evidence of manipulation found, provenance not esta
 2. Create a one-page "How to verify a suspicious video" guide for your family.
 3. Run the verification stack on an AI-generated image from a free image generator and document what each step shows.
 
+## Mini project: Deepfake Verification Guide
+**Build:** Write a short guide others can follow.
+
+**Deliverables (in your own portfolio repo):** A one-page guide (PDF or Markdown) with the verification stack and the second-channel rule.
+
+**This is a phase of the track capstone:** see [`../CAPSTONE.md`](../CAPSTONE.md).
+
+**Share it (optional):** "I made a one-page guide on how to check suspicious videos." Follow the safe-sharing rules and templates in [`SHOWCASE.md`](../../../SHOWCASE.md).
+
 ## Checkpoint
 - Why isn't a detector score enough?
 - Why does the second-channel rule beat technical detection for fraud?

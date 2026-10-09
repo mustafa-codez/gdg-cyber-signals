@@ -97,6 +97,15 @@ Variants of the same family score high; unrelated behaviour scores 0. Real tools
 2. Fetch two related sequences and compute their k-mer similarity for k = 3, 5, 8. How does k change the result?
 3. Explain in a paragraph how alignment and fuzzy hashing are cousins.
 
+## Mini project: Sequence Similarity Notebook
+**Build:** Compare public sequences and security strings with the same technique.
+
+**Deliverables (in your own portfolio repo):** A notebook with alignment output, k-mer similarity for several k values and a short explanation of the connection.
+
+**This is a phase of the track capstone:** see [`../CAPSTONE.md`](../CAPSTONE.md).
+
+**Share it (optional):** "I used the same similarity ideas on DNA and on malware-style strings." Follow the safe-sharing rules and templates in [`SHOWCASE.md`](../../../SHOWCASE.md).
+
 ## Checkpoint
 - What's the difference between local and global alignment?
 - Why do k-mers make large-scale similarity search fast?

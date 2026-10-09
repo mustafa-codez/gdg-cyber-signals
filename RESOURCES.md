@@ -10,6 +10,7 @@
 5. [Aegis: LLM security](#5-aegis-llm-security)
 6. [Helix: Bio-Cyber](#6-helix-bio-cyber)
 7. [Frameworks and standards](#7-frameworks-and-standards)
+   - [Gemini and Build with AI](#gemini-and-build-with-ai)
 8. [People, channels and newsletters to follow](#8-people-channels-and-newsletters-to-follow)
 9. [Podcasts and books](#9-podcasts-and-books)
 10. [Certifications and career paths](#10-certifications-and-career-paths)
@@ -135,6 +136,48 @@
 - OWASP Top 10 (web): https://owasp.org/www-project-top-ten/
 - ISO/IEC 27001 (overview, search)
 - Lockheed Martin Cyber Kill Chain, Diamond Model of Intrusion Analysis *(search)*
+
+### Google's free and underrated resources
+A full, categorised list lives in [`docs/google-free-resources.md`](docs/google-free-resources.md). Highlights: VirusTotal, OSV and OSV-Scanner, deps.dev, Google CTF, Gruyere, the free Secure and Reliable Systems and SRE books, Fact Check Explorer, Dataset Search, NotebookLM, Cloud Shell, AlphaFold DB, Google Summer of Code.
+
+### Our chapter: GDG on Campus AAST Abu Qir
+- Link hub: https://bio.link/gdgaast
+- Facebook: https://www.facebook.com/GDGAAST/
+- Instagram: https://www.instagram.com/aast.gdgc/
+- LinkedIn: https://www.linkedin.com/company/gdg-on-campus-aast-abu-qir/
+- WhatsApp community: https://chat.whatsapp.com/LcIrU7sHcqFG43t1u3IPJs
+- Chapter page: https://gdg.community.dev/gdg-on-campus-arab-academy-for-science-technology-and-maritime-transport-abu-qir-egypt/
+- Event suggestions form: https://forms.gle/Cy4hsiuUC1S162Cj6
+- More: [`docs/community-aast-abu-qir.md`](docs/community-aast-abu-qir.md)
+
+### Gemini and Build with AI
+**Start here**
+- Google AI Studio (experiment and create API keys): https://aistudio.google.com
+- API key page: https://aistudio.google.com/apikey
+- Gemini API docs: https://ai.google.dev/gemini-api/docs
+- Quickstart: https://ai.google.dev/gemini-api/docs/quickstart
+- Models list (names change, check often): https://ai.google.dev/gemini-api/docs/models
+- Rate limits and pricing: https://ai.google.dev/gemini-api/docs/rate-limits
+- Structured output (JSON schemas): https://ai.google.dev/gemini-api/docs/structured-output
+- Gemini API cookbook (examples and notebooks): https://github.com/google-gemini/cookbook
+- Python SDK: `pip install google-genai` (https://github.com/googleapis/python-genai)
+
+**Tools and platforms**
+- Gemini CLI (open-source terminal agent): https://github.com/google-gemini/gemini-cli
+- Google Colab (browser notebooks, no install): https://colab.research.google.com
+- Vertex AI (enterprise Gemini on Google Cloud): https://cloud.google.com/vertex-ai
+- Google Cloud Skills Boost (labs and learning paths): https://www.cloudskillsboost.google
+- Google Developer Groups: https://developers.google.com/community/gdg
+- Build with AI (community-led Gemini events, check the current season): https://developers.google.com/community/build-with-ai/faq
+- GDG community platform (events): https://gdg.community.dev
+
+**Building safely**
+- Google Secure AI Framework (SAIF): https://saif.google
+- OWASP Top 10 for LLM Applications (see section 5)
+- Secret scanning: https://github.com/gitleaks/gitleaks, https://github.com/Yelp/detect-secrets
+- Python dependency audit: https://github.com/pypa/pip-audit
+- Bandit (Python security linter): https://github.com/PyCQA/bandit
+- Pydantic (validate model output): https://docs.pydantic.dev
 
 ## 8. People, channels and newsletters to follow
 Search these on YouTube or their sites. Channel names, not guaranteed URLs.

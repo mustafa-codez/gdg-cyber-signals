@@ -47,6 +47,15 @@ Fill in this table (suggested answers are in the next section):
 2. Read one real public LLM incident write-up and map it to the list.
 3. Look up three techniques in MITRE ATLAS: https://atlas.mitre.org
 
+## Mini project: LLM Threat Model
+**Build:** Threat-model an imagined AI app.
+
+**Deliverables (in your own portfolio repo):** A table of assets, threats, OWASP IDs and controls for a support chatbot with tools.
+
+**This is a phase of the track capstone:** see [`../CAPSTONE.md`](../CAPSTONE.md).
+
+**Share it (optional):** "I threat-modelled an AI chatbot using the OWASP LLM Top 10." Follow the safe-sharing rules and templates in [`SHOWCASE.md`](../../../SHOWCASE.md).
+
 ## Checkpoint
 - Why can't a system prompt be a security boundary?
 - What is "excessive agency", and what is the fix?

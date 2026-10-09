@@ -68,6 +68,15 @@ Write: "Located to <place> with **high** confidence because of matches X, Y, Z. 
 2. Do a published open-source geolocation challenge (e.g. from Bellingcat or the Quiztime community) blind, then compare to the answer.
 3. Write the reasoning chain in `templates/osint-collection-log.md`.
 
+## Mini project: Geolocation Walkthrough
+**Build:** Locate a practice image and write down your reasoning.
+
+**Deliverables (in your own portfolio repo):** A clue table, the Overpass query you used, two independent matches and a confidence statement. Public landmarks or practice images only.
+
+**This is a phase of the track capstone:** see [`../CAPSTONE.md`](../CAPSTONE.md).
+
+**Share it (optional):** "I geolocated an image using only visual clues and OpenStreetMap." Follow the safe-sharing rules and templates in [`SHOWCASE.md`](../../../SHOWCASE.md).
+
 ## Checkpoint
 - Why require two independent matches?
 - What can you do with shadows?

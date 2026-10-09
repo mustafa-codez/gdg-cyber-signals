@@ -92,6 +92,15 @@ plt.savefig("network.png", dpi=150)
 2. Download a small STRING network for a public protein and load it with `pandas` + `networkx`. Which proteins have the highest betweenness?
 3. Find all nodes within 2 hops of your target node with `nx.single_source_shortest_path_length(G, node, cutoff=2)`.
 
+## Mini project: Network Chokepoint Analyzer
+**Build:** Analyse a toy protein network and an attack graph.
+
+**Deliverables (in your own portfolio repo):** A notebook with shortest paths, betweenness and a labelled drawing for both graphs.
+
+**This is a phase of the track capstone:** see [`../CAPSTONE.md`](../CAPSTONE.md).
+
+**Share it (optional):** "I used the same graph algorithms on proteins and on attack paths." Follow the safe-sharing rules and templates in [`SHOWCASE.md`](../../../SHOWCASE.md).
+
 ## Checkpoint
 - Why transform confidence with `-log(p)`?
 - What does high betweenness mean in each domain?

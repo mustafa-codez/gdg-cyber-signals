@@ -93,6 +93,15 @@ Your SIEM is the real test. Convert the rule, run it against `labs/datasets/samp
 2. Browse `SigmaHQ/sigma/rules/` and find three rules for a technique you studied. What false positives do they list?
 3. Tag your rules with the right ATT&CK IDs on https://attack.mitre.org
 
+## Mini project: Sigma Rule Pack
+**Build:** Write three Sigma rules for different ATT&CK techniques.
+
+**Deliverables (in your own portfolio repo):** A `rules/` folder with 3 `.yml` files, each with tags, false positives and a one-paragraph explanation.
+
+**This is a phase of the track capstone:** see [`../CAPSTONE.md`](../CAPSTONE.md).
+
+**Share it (optional):** "I wrote three Sigma detection rules mapped to MITRE ATT&CK." Follow the safe-sharing rules and templates in [`SHOWCASE.md`](../../../SHOWCASE.md).
+
 ## Checkpoint
 - What's the difference between a rule that is *precise* and one that is *noisy*?
 - Why include `falsepositives`?

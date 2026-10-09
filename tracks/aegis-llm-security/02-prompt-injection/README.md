@@ -39,13 +39,13 @@ from google.genai import types
 
 client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
 
-def chat(system: str, user: str, model: str = "gemini-2.0-flash") -> str:
+def chat(system: str, user: str, model: str = "gemini-3-flash-preview") -> str:
     r = client.models.generate_content(
         model=model, contents=user,
         config=types.GenerateContentConfig(system_instruction=system))
     return r.text
 ```
-(Model names change often; check the current list in the Gemini API docs. Never commit your API key; keep it in an environment variable.)
+(Model names change often; check the current list at https://ai.google.dev/gemini-api/docs/models. Forge Lab 01 covers Gemini setup in detail. Never commit your API key; keep it in an environment variable.)
 
 ### The vulnerable app
 Save as `vulnerable_bot.py`:
@@ -133,6 +133,15 @@ Test each defence: how easily can you bypass it (rephrase, translate, encode)? *
 1. Reach as high as you can in Gandalf. Write the *principle* behind each bypass, not the exact words.
 2. Add the three defences to `vulnerable_bot.py` and attempt to break your own app.
 3. Redesign the AcmeBank bot so the discount code is never in the prompt and is issued by a code-based tool after authentication.
+
+## Mini project: Injection Journal and Hardened Bot
+**Build:** Record what you learned from Gandalf (principles, no spoilers) and harden the local bot.
+
+**Deliverables (in your own portfolio repo):** A journal in Markdown, `hardened_bot.py` with three defences, and notes on how you tried to bypass them.
+
+**This is a phase of the track capstone:** see [`../CAPSTONE.md`](../CAPSTONE.md).
+
+**Share it (optional):** "I played Gandalf, then hardened my own bot against prompt injection." Follow the safe-sharing rules and templates in [`SHOWCASE.md`](../../../SHOWCASE.md).
 
 ## Checkpoint
 - What's the difference between direct and indirect injection?

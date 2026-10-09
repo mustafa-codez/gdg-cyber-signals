@@ -78,6 +78,15 @@ Run the promptfoo eval on every prompt or model change so regressions get caught
 2. Compare failure rates before and after adding defences.
 3. Write two findings in the format above.
 
+## Mini project: Red-Team Report
+**Build:** Test your bot with a suite and write findings.
+
+**Deliverables (in your own portfolio repo):** A 10-test suite (5 attacks, 5 normal), results before and after defences, and two findings with success rates.
+
+**This is a phase of the track capstone:** see [`../CAPSTONE.md`](../CAPSTONE.md).
+
+**Share it (optional):** "I red-teamed my own AI app and wrote up the findings." Follow the safe-sharing rules and templates in [`SHOWCASE.md`](../../../SHOWCASE.md).
+
 ## Checkpoint
 - Why report failure rates rather than single examples?
 - Why include benign tests too?

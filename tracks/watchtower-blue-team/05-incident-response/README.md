@@ -54,6 +54,15 @@ Turn findings into permanent defences: a Wazuh rule (Lab 01), a Sigma rule (Lab 
 2. Explain the incident in three sentences for a non-technical manager.
 3. Draft a one-page playbook titled "Suspected SSH brute force".
 
+## Mini project: Incident Report
+**Build:** Write a full incident report for the lab's synthetic attack.
+
+**Deliverables (in your own portfolio repo):** The completed `templates/incident-report.md`, with UTC timeline, IOCs, ATT&CK mapping and recommendations.
+
+**This is a phase of the track capstone:** see [`../CAPSTONE.md`](../CAPSTONE.md).
+
+**Share it (optional):** "I wrote my first incident report from raw logs." Follow the safe-sharing rules and templates in [`SHOWCASE.md`](../../../SHOWCASE.md).
+
 ## Checkpoint
 - Why preserve evidence before containment steps like rebooting?
 - What's the difference between eradication and recovery?

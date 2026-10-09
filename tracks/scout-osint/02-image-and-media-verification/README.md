@@ -79,6 +79,15 @@ exiftool -all= -overwrite_original photo_to_share.jpg
 2. Find a photo you took, read its EXIF, then strip it and compare.
 3. Complete `templates/osint-collection-log.md` for one verification.
 
+## Mini project: Verification Write-up
+**Build:** Verify or debunk one public image or video.
+
+**Deliverables (in your own portfolio repo):** A write-up with reverse-search findings, metadata notes, archive links and a confidence statement.
+
+**This is a phase of the track capstone:** see [`../CAPSTONE.md`](../CAPSTONE.md).
+
+**Share it (optional):** "I verified a viral image step by step." Follow the safe-sharing rules and templates in [`SHOWCASE.md`](../../../SHOWCASE.md).
+
 ## Checkpoint
 - Why is a missing EXIF block not proof of fakery?
 - Which verification question can reverse image search answer best?

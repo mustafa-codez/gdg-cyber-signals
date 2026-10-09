@@ -81,6 +81,15 @@ Use a public explorer such as https://www.blockchain.com/explorer (Bitcoin) or h
 2. Add a time-based check: were hops made within minutes of each other?
 3. Write a mini case file (`templates/case-file.md`) describing the trail and what you'd ask the exchange for.
 
+## Mini project: Peel-Chain Tracer
+**Build:** Package the tracing code into a script that outputs the chain and saves a graph image.
+
+**Deliverables (in your own portfolio repo):** `tracer.py`, `chain.png`, and a README explaining the pattern and why exchanges matter.
+
+**This is a phase of the track capstone:** see [`../CAPSTONE.md`](../CAPSTONE.md).
+
+**Share it (optional):** "I wrote a tool that detects a laundering peel chain in synthetic transactions." Follow the safe-sharing rules and templates in [`SHOWCASE.md`](../../../SHOWCASE.md).
+
 ## Checkpoint
 - Why is "anonymous" the wrong word for Bitcoin?
 - Where does the trail usually become attributable to a person?

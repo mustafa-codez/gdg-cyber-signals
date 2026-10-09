@@ -50,6 +50,15 @@ Fill this table:
 2. Draw the money flow as a diagram.
 3. Write three "red flags" a bank or exchange could monitor for this crime type (AML typologies).
 
+## Mini project: Case Study Brief
+**Build:** Analyse one public case with the table from the lab.
+
+**Deliverables (in your own portfolio repo):** A one-page brief with actors, infrastructure, money flow and what led to the arrest, with source links.
+
+**This is a phase of the track capstone:** see [`../CAPSTONE.md`](../CAPSTONE.md).
+
+**Share it (optional):** "I broke down a real public cybercrime case into its parts." Follow the safe-sharing rules and templates in [`SHOWCASE.md`](../../../SHOWCASE.md).
+
 ## Checkpoint
 - Why is it useful to disrupt *infrastructure* and *cash-out* rather than only chase individuals?
 - What's the difference between an indicator of compromise and evidence for court?

@@ -79,6 +79,15 @@ Reproducibility and integrity matter in science as in security: **pinned version
 2. Dock two different ligands and write which you'd prioritise, with reasons and caveats.
 3. Write a reproducibility checklist for your docking run (versions, checksums, parameters).
 
+## Mini project: Docking Reproducibility Report
+**Build:** Run (or document) a redocking test.
+
+**Deliverables (in your own portfolio repo):** A report with software versions, box coordinates, parameters, checksums and the RMSD or score you got, with caveats.
+
+**This is a phase of the track capstone:** see [`../CAPSTONE.md`](../CAPSTONE.md).
+
+**Share it (optional):** "I ran a reproducible molecular docking test and documented it." Follow the safe-sharing rules and templates in [`SHOWCASE.md`](../../../SHOWCASE.md).
+
 ## Checkpoint
 - What does a docking score tell you, and what doesn't it tell you?
 - Why run a redocking and a negative control?

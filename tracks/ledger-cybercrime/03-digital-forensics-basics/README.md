@@ -88,6 +88,15 @@ Registry hives, Prefetch, Amcache, Event Logs (`.evtx`), browser history and `$M
 2. Write a one-page forensic summary: what you found, how, with hash evidence.
 3. Explain why powering off a suspect's running laptop may destroy evidence.
 
+## Mini project: Forensic Mini-Report
+**Build:** Write up your practice-image investigation.
+
+**Deliverables (in your own portfolio repo):** A report with hashes before and after, recovered file evidence and a chain-of-custody table.
+
+**This is a phase of the track capstone:** see [`../CAPSTONE.md`](../CAPSTONE.md).
+
+**Share it (optional):** "I recovered a deleted file from a practice disk image and documented the evidence properly." Follow the safe-sharing rules and templates in [`SHOWCASE.md`](../../../SHOWCASE.md).
+
 ## Checkpoint
 - What does a matching SHA-256 prove?
 - Why work on a copy and not the original?

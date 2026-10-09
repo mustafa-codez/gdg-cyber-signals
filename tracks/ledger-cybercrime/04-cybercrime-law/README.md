@@ -41,6 +41,15 @@ Use the public case from Lab 01. Fill in:
 2. Compare how two countries define "unauthorised access".
 3. Write a one-paragraph briefing: "Why is cross-border evidence collection slow, and what are two ways to speed it up?"
 
+## Mini project: Legal Map
+**Build:** Map a public case to law and cooperation routes.
+
+**Deliverables (in your own portfolio repo):** A one-page map (infographic or table) from offences to cooperation routes and AML duties. Note it is education, not legal advice.
+
+**This is a phase of the track capstone:** see [`../CAPSTONE.md`](../CAPSTONE.md).
+
+**Share it (optional):** "I mapped a cybercrime case to the laws and cooperation routes that apply." Follow the safe-sharing rules and templates in [`SHOWCASE.md`](../../../SHOWCASE.md).
+
 ## Checkpoint
 - What's the difference between a treaty and a national law?
 - Why is *preservation* of data time-critical?

@@ -110,6 +110,15 @@ In the dashboard, open the **File Integrity Monitoring** module. You should see 
 3. Make FIM watch `/etc/passwd`. Add a user and observe the alert.
 4. Load `labs/datasets/sample_auth.log` lines into `wazuh-logtest`. How many different rules trigger?
 
+## Mini project: Custom Rule Pack v1
+**Build:** Extend your custom rule work into a small rule pack with two rules (for example SSH brute force and a FIM alert) and explain each.
+
+**Deliverables (in your own portfolio repo):** `local_rules.xml`, 2 screenshots of alerts (lab traffic only), a README saying what each rule detects and one false positive.
+
+**This is a phase of the track capstone:** see [`../CAPSTONE.md`](../CAPSTONE.md).
+
+**Share it (optional):** "I deployed a SIEM and wrote my first detection rules." Follow the safe-sharing rules and templates in [`SHOWCASE.md`](../../../SHOWCASE.md).
+
 ## Checkpoint
 - What's the difference between an agent, a manager and an indexer?
 - Why do we put custom rules in `local_rules.xml` instead of editing built-in rules?

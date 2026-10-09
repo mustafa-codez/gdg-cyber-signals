@@ -61,6 +61,15 @@ sha256sum screenshot_001.png >> hashes.txt
 2. Rate each source with the A–F / 1–6 system and explain your grades.
 3. Write a 5-line summary for a non-technical reader, including your confidence.
 
+## Mini project: Collection Plan and Log
+**Build:** Plan and log a small public-source investigation.
+
+**Deliverables (in your own portfolio repo):** A requirement statement, filled `osint-collection-log.md`, and source grades with reasons.
+
+**This is a phase of the track capstone:** see [`../CAPSTONE.md`](../CAPSTONE.md).
+
+**Share it (optional):** "I learned that OSINT is a method, not a tool list." Follow the safe-sharing rules and templates in [`SHOWCASE.md`](../../../SHOWCASE.md).
+
 ## Checkpoint
 - Why separate source reliability from information credibility?
 - Why archive and hash your evidence?

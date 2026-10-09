@@ -99,6 +99,15 @@ Notice: even if the model is fully compromised, the **code** still enforces poli
 2. Add a `send_email` tool to `safe_tools.py` with a recipient allowlist.
 3. Draw a data-flow diagram for an email-summarising agent and mark every trust boundary.
 
+## Mini project: Safe Tools Demo
+**Build:** Extend the RAG and agent examples.
+
+**Deliverables (in your own portfolio repo):** `rag_poison.py` with a filter, `safe_tools.py` with a new tool and tests showing denied actions.
+
+**This is a phase of the track capstone:** see [`../CAPSTONE.md`](../CAPSTONE.md).
+
+**Share it (optional):** "I showed how a poisoned document hijacks RAG, and how to stop an agent doing damage." Follow the safe-sharing rules and templates in [`SHOWCASE.md`](../../../SHOWCASE.md).
+
 ## Checkpoint
 - Why must authorisation live outside the model?
 - How can RAG leak one user's data to another?

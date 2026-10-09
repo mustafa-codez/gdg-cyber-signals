@@ -126,6 +126,15 @@ docker compose down -v
 2. Create a free canary token at https://canarytokens.org (a "web bug" or document token), open it, and read the alert you receive.
 3. Write a one-page summary of your honeypot session using `templates/incident-report.md` (treat your own test as the "incident").
 
+## Mini project: Honeypot Intelligence Note
+**Build:** Run Cowrie on localhost, play the attacker, and summarise what the honeypot recorded.
+
+**Deliverables (in your own portfolio repo):** A one-page note (credentials tried, commands, what a detection could look like) and the Python summary script. Synthetic/lab data only.
+
+**This is a phase of the track capstone:** see [`../CAPSTONE.md`](../CAPSTONE.md).
+
+**Share it (optional):** "I ran a honeypot in a sandbox and turned attacker behaviour into a detection idea." Follow the safe-sharing rules and templates in [`SHOWCASE.md`](../../../SHOWCASE.md).
+
 ## Checkpoint
 - Why do honeypots have very low false positives?
 - Why must a honeypot be isolated from real systems?

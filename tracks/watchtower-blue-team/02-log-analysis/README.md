@@ -89,6 +89,15 @@ Run: `python3 detect.py sample_auth.log` (the script is also saved in this folde
 2. Add detection of "many different usernames from one IP" (username spraying).
 3. Write the findings using `templates/incident-report.md`.
 
+## Mini project: SSH Attack Analyzer
+**Build:** Turn `detect.py` into a small tool that prints a timeline per attacker and writes a short Markdown report.
+
+**Deliverables (in your own portfolio repo):** `analyzer.py`, a sample report, and a README that explains the findings in plain language.
+
+**This is a phase of the track capstone:** see [`../CAPSTONE.md`](../CAPSTONE.md).
+
+**Share it (optional):** "I built a log analyzer that spots brute force followed by a successful login." Follow the safe-sharing rules and templates in [`SHOWCASE.md`](../../../SHOWCASE.md).
+
 ## Checkpoint
 - Why is a successful login after many failures the critical signal?
 - What MITRE techniques did you observe? (T1110 Brute Force, T1078 Valid Accounts, T1003 Credential Dumping)
